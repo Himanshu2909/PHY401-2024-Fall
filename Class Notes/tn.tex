@@ -1,0 +1,93 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}	% Para caracteres en español
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+\begin{document}
+
+%Change this for headings
+\setcounter{section}{0}
+\title{Lecture 1 Class Notes}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\LARGE \bf Lecture 1 Class Notes}\\
+{\large PHY401: Classical Mechanics}\\
+Fall 2024
+\end{center}
+%Heading Ends
+
+
+\tableofcontents
+
+
+%Content Starts
+\section{Topic of the Day}
+\subsection{Subtopic 1}
+Some Content
+
+\begin{note}
+\textbf{THIS IS A NOTE IN BOLD}
+\end{note}
+
+Some Content
+
+\begin{equation}
+F = m\ddot{r_0}
+\end{equation}
+
+
+\subsection{SubTopic 2}
+
+%For Shaded Shit
+\begin{shaded}
+
+\textbf{The Tidal Force} \newline
+
+\begin{equation}
+F_{tide} = -GM_mm(\frac{\hat{d}}{d^2}-\frac{\hat{d_0}}{d_0^2})
+\end{equation}
+Where:
+\begin{equation*}
+\begin{split}
+G = \text{Gravitational Constant} \\
+d = \text{Object's Position Relative to Moon} \\
+d_0 = \text{Earth's Center Relative to the moon}\\
+M_m = \text{Mass of the moon}
+\end{split}
+\end{equation*}
+\end{shaded}
+
+
+\end{document}
